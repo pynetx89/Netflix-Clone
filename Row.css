@@ -1,0 +1,16 @@
+.row {
+  color: rgb(0, 38, 66);
+  margin-left: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.row_poster {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.row__poster {
+  width: 150px;
+  max-width: 100%;
+  object-fit: cover;
+  padding: 5px;
+}
